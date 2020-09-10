@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+
+/*Navigation top*/
+
+nav.top {
+    background-color: #fff;
+}
+
+.top-inside {
+    padding: 2rem 5rem;
+}
+
+.logo-box {
+    width: 50%;
+    float: left;
+}
+
+.logo-box-inside {
+    width: 25%;
+}
+
+img.logo {
+    width: 60%;
+}
+
+.navbar-top {
+    float: right;
+    width: 50%;
+}
+
+.navbar-items {
+    float: right;
+}
+
+.navbar-item {
+    display: block;
+    float: left;
+    margin-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border: 1px solid #f4f4f4;
+}
+
+.nav-link-top {
+    font-size: 1.1rem;
+}
+
+
+/*Navigation bar*/
+
+.nav-bar {
+    background-color: #AE0B05;
+}
+
+#nav-links .nav-icon {
+    display: none;
+}
+
+.nav-links {
+    float: right;
+}
+
+.nav-item {
+    display: block;
+    float: left;
+    padding: 1rem 1.2rem;
+}
+
+.nav-item:hover {
+    text-decoration-line: underline;
+}
+
+#nav-links .nav-link {
+    color: #fff;
+}
+
+
+/*Banner Stripe Search*/
+
+.banner {
+    position: relative;
+}
+
+.banner-img {
+    width: 100%;
+    background-image: url("img/strandpromenad-1800x350.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 350px;
+}
+
+div.search {
+    color: black;
+    border-radius: 5px;
+    opacity: .4;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: .1rem;
+    width: 40%;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-search {
+    height: 5rem;
+}
